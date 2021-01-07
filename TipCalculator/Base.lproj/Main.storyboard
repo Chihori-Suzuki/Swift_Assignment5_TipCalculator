@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tbc-6N-7pH">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="955.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="971.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZI-n1-SMq">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="191"/>
@@ -43,7 +43,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXt-hK-bmL">
-                                                <rect key="frame" x="0.0" y="191" width="414" height="191.5"/>
+                                                <rect key="frame" x="0.0" y="191" width="414" height="207.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AE2-ai-Gnm">
                                                         <rect key="frame" x="46" y="37" width="122" height="20.5"/>
@@ -52,7 +52,10 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bill Amount" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbd-PL-kBZ">
-                                                        <rect key="frame" x="60" y="107.5" width="294" height="34"/>
+                                                        <rect key="frame" x="60" y="107.5" width="294" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="mLn-wE-4jt"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -70,7 +73,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rB1-3t-lgw">
-                                                <rect key="frame" x="0.0" y="382.5" width="414" height="191"/>
+                                                <rect key="frame" x="0.0" y="398.5" width="414" height="191"/>
                                                 <subviews>
                                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="wUB-US-wr9">
                                                         <rect key="frame" x="53" y="106.5" width="308" height="31"/>
@@ -98,7 +101,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ifa-iv-UtA">
-                                                <rect key="frame" x="0.0" y="573.5" width="414" height="191"/>
+                                                <rect key="frame" x="0.0" y="589.5" width="414" height="191"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9c-aL-SRl">
                                                         <rect key="frame" x="186" y="60" width="42" height="20.5"/>
@@ -131,7 +134,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pkO-Kh-7tx">
-                                                <rect key="frame" x="0.0" y="764.5" width="414" height="191"/>
+                                                <rect key="frame" x="0.0" y="780.5" width="414" height="191"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </view>
                                         </subviews>
